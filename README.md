@@ -4,7 +4,7 @@ In this repository you find all of the code developed during the project.
 
 
 
-All of the python scripts are in the folder "/models". 
+All of the Python scripts are in the folder "/models". 
 
 
 
@@ -14,10 +14,10 @@ We found it easier to have separate scripts for the various case studies conduct
 --------------------------------------
 -- Heart_model.py -- 
 
-This is s the main code which models the "healthy heart scenario".
+This is the main code which models the "healthy heart scenario".
 This script has the standard structure from which the others were created.
 
-The parameter I_value (input current at the SAN) may be tweaked to access diferente heart rates as described in the paper.
+The parameter I_value (input current at the SAN) may be tweaked to access different heart rates as described in the paper.
 
 
 -- Ventricular_tachycardia.py -- 
@@ -36,13 +36,13 @@ An artificial unidirectional block is introduced to mimic a premature excitation
 
 -- WPW_syndrome.py -- 
 
-An extra connection between atria and ventricles is created.
+An extra connection between the atria and the ventricles is created.
 
 -- Ischemia.py -- 
 
 A square region of random deficient diffusion is created in the right atrium. 
 
-Given this randomness it is impossible to tell which initial configurations will yield reentry.
+Given this randomness, it is impossible to tell which initial configurations will yield reentry.
 
 
 --------------------------------------
@@ -51,7 +51,7 @@ all of these scipts show the geometry of the heart when run. Upon closing this v
 
 Once the plot is closed a .png and a .csv file are saved, both relating to the ecg data.
 
-The csv has 4 columns:
+The CSV has 4 columns:
 1st column: time
 2nd column: Lead I ECG voltage
 3rd column: Lead II ECG voltage
